@@ -1,0 +1,24 @@
+Se tiene un archivo de entrada (entrada.txt) con los datos:
+
+N, D: Número de tipos, Dimension de los vectores
+M1: Ejemplos del tipo 1
+	x1, x2, ..., xD para ejemplo 1
+	x1, x2, ..., xD para ejemplo 2
+	...
+	x1, x2, ..., xD para ejemplo M1
+M2: Ejemplos para tipo 2)
+	...
+	...
+MN: Ejemplos para tipo N
+	...
+	...
+
+K: Casos para clasificacion
+	x1, x2, ..., xD (caso 1)
+	...
+	x1, x2, ..., xD (caso K)
+
+La salida tiene K renglones, 
+cada uno indicando el tipo al que pertenece
+el objeto al que se está clasificando
+

@@ -1,0 +1,65 @@
+Mensaje: {
+  "entities": [], 
+  "intents": [
+    {
+      "confidence": 0.893105173110962, 
+      "intent": "Dolor_Cabeza"
+    }
+  ], 
+  "output": {
+    "generic": [
+      {
+        "text": "\u00bfQu\u00e9 otro s\u00edntoma tienes?", 
+        "response_type": "text"
+      }
+    ], 
+    "text": [
+      "\u00bfQu\u00e9 otro s\u00edntoma tienes?"
+    ], 
+    "log_messages": [], 
+    "nodes_visited_details": [
+      {
+        "conditions": "#Dolor_Cabeza", 
+        "dialog_node": "node_1_1539567281894", 
+        "title": null
+      }, 
+      {
+        "conditions": "true", 
+        "dialog_node": "node_10_1539621471495", 
+        "title": "S\u00f3lo dolor de cabeza"
+      }
+    ], 
+    "nodes_visited": [
+      "node_1_1539567281894", 
+      "node_10_1539621471495"
+    ]
+  }, 
+  "context": {
+    "conversation_id": "3b48b69d-93b0-49e0-9577-50187f18ae3b", 
+    "system": {
+      "dialog_stack": [
+        {
+          "dialog_node": "root"
+        }
+      ], 
+      "dialog_request_counter": 1, 
+      "dialog_turn_counter": 1, 
+      "branch_exited": true, 
+      "initialized": true, 
+      "_node_output_map": {
+        "node_10_1539621471495": {
+          "0": [
+            0
+          ]
+        }
+      }, 
+      "branch_exited_reason": "completed"
+    }, 
+    "cabeza": "dolor de cabeza"
+  }, 
+  "input": {
+    "text": "Me duele la cabeza"
+  }
+}
+{u'generic': [{u'text': u'\xbfQu\xe9 otro s\xedntoma tienes?', u'response_type': u'text'}], u'text': [u'\xbfQu\xe9 otro s\xedntoma tienes?'], u'log_messages': [], u'nodes_visited_details': [{u'conditions': u'#Dolor_Cabeza', u'dialog_node': u'node_1_1539567281894', u'title': None}, {u'conditions': u'true', u'dialog_node': u'node_10_1539621471495', u'title': u'S\xf3lo dolor de cabeza'}], u'nodes_visited': [u'node_1_1539567281894', u'node_10_1539621471495']}
+Respuesta: 
